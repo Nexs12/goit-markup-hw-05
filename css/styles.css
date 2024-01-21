@@ -801,3 +801,55 @@ portfolio-container {
   display: block;
   margin-right: 120px;
 }
+
+.footer-modal {
+}
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
+.footer-modal-edit {
+  width: 264px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid var(--WHITE, #fff);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+}
+.subscribe-btn {
+  color: var(--WHITE, #fff);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border-radius: 4px;
+  background: var(--IRIS, #4d5ae5);
+  display: flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  min-width: 165px;
+  height: 40px;
+  cursor: pointer;
+  border: none;
+}
+.modal-footer-title {
+  margin-bottom: 16px;
+  color: var(--WHITE, #fff);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.footer-modal-icon {
+  fill: #ffffff;
+  margin-left: 16px;
+}
