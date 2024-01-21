@@ -282,6 +282,7 @@ svg {
 }
 
 .policy-container {
+  position: relative;
   margin-bottom: 24px;
 }
 
