@@ -280,6 +280,7 @@ svg {
 }
 .policy-container {
   margin-top: 8px;
+  margin-bottom: 24px;
 }
 
 .modal-privacy-icon {
@@ -379,7 +380,6 @@ svg {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   padding: 16px 32px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  margin-top: 24px;
   margin: 0 auto;
   min-width: 169px;
   height: 56px;
@@ -407,6 +407,7 @@ svg {
   padding: 8px 16px;
   background-color: transparent;
   outline: transparent;
+  color: rgba(46, 47, 66, 0.4);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -420,9 +421,6 @@ svg {
   font-weight: 400;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  align-items: center;
-  display: inline-flex;
-  margin-bottom: 24px;
 }
 
 .policy-link {
@@ -440,23 +438,17 @@ svg {
   margin-right: 8px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
+  border-radius: 2px;
 }
 
 .check-input:checked + .checkbox-name span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
-}
-
-.privacy-check {
-  display: inline-flex;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Advantages */
@@ -840,7 +832,6 @@ portfolio-container {
   padding: 8px 24px;
   justify-content: center;
   align-items: center;
-  gap: 16px;
   min-width: 165px;
   height: 40px;
   cursor: pointer;
