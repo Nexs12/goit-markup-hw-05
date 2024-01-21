@@ -819,10 +819,16 @@ portfolio-container {
   line-height: 2;
   letter-spacing: 0.04em;
   padding-left: 16px;
+  color: #ffffff;
 }
+
+.footer-modal-edit::placeholder {
+  color: #ffffff;
+}
+
 .subscribe-btn {
   color: var(--WHITE, #fff);
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
